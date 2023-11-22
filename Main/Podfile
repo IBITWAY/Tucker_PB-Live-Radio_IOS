@@ -1,0 +1,45 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'RockRadio' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  
+#  pod 'FirebaseAnalytics'
+  pod 'FirebaseStorage'
+  pod 'FirebaseMessaging'
+  pod 'FirebaseDatabase'
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+  pod 'FirebaseRemoteConfig'
+  
+#    pod 'Firebase/Core'
+#    pod 'Firebase/Storage'
+#    pod 'Firebase/Auth'
+#    pod 'Firebase/Database'
+#pod 'SwiftyJSON', '~> 4.0'
+    pod 'LGSideMenuController'
+    pod 'FRadioPlayer'
+
+#    pod 'Firebase/Core'
+#    pod 'Firebase/Auth'
+#    pod 'Firebase/Firestore'
+#    pod 'Firebase/Messaging'
+    pod 'SwiftyJSON'
+    pod 'Alamofire'
+    pod 'SDWebImage', '~> 5.0'
+#    pod 'SwiftGifOrigin', '~> 1.7.0'
+
+  # Pods for RockRadio
+
+  target 'RockRadioTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'RockRadioUITests' do
+    # Pods for testing
+  end
+
+end

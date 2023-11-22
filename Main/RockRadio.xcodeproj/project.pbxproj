@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE2DB4FC4079AC93E6406C5 /* Pods_RockRadio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14202B807D785B7BE09DA119 /* Pods_RockRadio.framework */; };
+		561BC3A42D4D3DCB2543DA1D /* Pods_RockRadioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D4C47D5E2A9F9C02D50B259 /* Pods_RockRadioTests.framework */; };
+		5F16FA4229F08985003719BD /* AppDelegate+CarPlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F16FA4129F08985003719BD /* AppDelegate+CarPlay.swift */; };
+		5F2D79FF2AE13E3F0036F5D6 /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D79FD2AE13E3F0036F5D6 /* PushNotificationManager.swift */; };
+		5F2D7A002AE13E400036F5D6 /* PushNotificationSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F2D79FE2AE13E3F0036F5D6 /* PushNotificationSender.swift */; };
+		6192986D318A4B5C79CF833D /* Pods_RockRadio_RockRadioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71B8B0C1F48E4E1D75A60AD /* Pods_RockRadio_RockRadioUITests.framework */; };
+		74259E6824F14AB6005DF6D6 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74259E6624F14AB6005DF6D6 /* SideMenuController.swift */; };
+		74259E6924F14AB6005DF6D6 /* SideMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74259E6724F14AB6005DF6D6 /* SideMenuController.xib */; };
+		74259E6D24F162BE005DF6D6 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74259E6B24F162BE005DF6D6 /* WebViewController.swift */; };
+		74259E6E24F162BE005DF6D6 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74259E6C24F162BE005DF6D6 /* WebViewController.xib */; };
+		74259E7224F16CED005DF6D6 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74259E7024F16CED005DF6D6 /* Track.swift */; };
+		74259E7324F16CED005DF6D6 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74259E7124F16CED005DF6D6 /* Station.swift */; };
+		742C831D25043EBF002458EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 742C831B25043EBE002458EB /* LaunchScreen.storyboard */; };
+		74349D8B257987C8008CB90B /* SongCurrentShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D85257987C8008CB90B /* SongCurrentShow.swift */; };
+		74349D8C257987C8008CB90B /* SongNextShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D86257987C8008CB90B /* SongNextShow.swift */; };
+		74349D8D257987C8008CB90B /* SongShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D87257987C8008CB90B /* SongShow.swift */; };
+		74349D8E257987C8008CB90B /* SongEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D88257987C8008CB90B /* SongEndpoints.swift */; };
+		74349D8F257987C8008CB90B /* SongBaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D89257987C8008CB90B /* SongBaseClass.swift */; };
+		74349D90257987C8008CB90B /* SongBroadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74349D8A257987C8008CB90B /* SongBroadcast.swift */; };
+		74352D3024EBF26300DB42BD /* BaseNeumorphicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74352D2F24EBF26300DB42BD /* BaseNeumorphicView.swift */; };
+		74D615A1257411AC008EE827 /* jix6go84T.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74D615A0257411AC008EE827 /* jix6go84T.gif */; };
+		74DAFBE0254C5E5100DE6BD9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74DAFBDF254C5E5100DE6BD9 /* GoogleService-Info.plist */; };
+		74F6440624E30CDD004DD380 /* RockRadioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6440524E30CDD004DD380 /* RockRadioTests.swift */; };
+		74F6441124E30CDD004DD380 /* RockRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6441024E30CDD004DD380 /* RockRadioUITests.swift */; };
+		74F6442924E30D69004DD380 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6442124E30D69004DD380 /* AppDelegate.swift */; };
+		74F6442A24E30D69004DD380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F6442324E30D69004DD380 /* Assets.xcassets */; };
+		74F6442C24E30D69004DD380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F6442624E30D69004DD380 /* Main.storyboard */; };
+		74F6443124E30E5C004DD380 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6442F24E30E5C004DD380 /* MainViewController.swift */; };
+		74F6443224E30E5C004DD380 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F6443024E30E5C004DD380 /* MainViewController.xib */; };
+		74F6443624E30F67004DD380 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6443524E30F67004DD380 /* AppConstants.swift */; };
+		74F6443924E31024004DD380 /* AVPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6443824E31024004DD380 /* AVPlayer.swift */; };
+		74F6443E24E31170004DD380 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6443D24E31170004DD380 /* UIView.swift */; };
+		74F6444224E311E2004DD380 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6443F24E311E2004DD380 /* Reachability.swift */; };
+		74F6444324E311E2004DD380 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6444024E311E2004DD380 /* UIColor.swift */; };
+		74F6444424E311E2004DD380 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6444124E311E2004DD380 /* UIViewController.swift */; };
+		CC0F8DD928401EF900B5B054 /* ezgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CC0F8DD828401EF900B5B054 /* ezgif.gif */; };
+		CCCEBFD625BF47FA00250221 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCCEBFD425BF47FA00250221 /* SideMenuTableViewCell.swift */; };
+		CCCEBFD725BF47FA00250221 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCCEBFD525BF47FA00250221 /* SideMenuTableViewCell.xib */; };
+		CCDFE67F28409EB9002FFA1A /* PRESEDENTIAL.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCDFE67E28409EB8002FFA1A /* PRESEDENTIAL.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74F6440224E30CDD004DD380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F643E324E30CD7004DD380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F643EA24E30CD7004DD380;
+			remoteInfo = RockRadio;
+		};
+		74F6440D24E30CDD004DD380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74F643E324E30CD7004DD380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74F643EA24E30CD7004DD380;
+			remoteInfo = RockRadio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14202B807D785B7BE09DA119 /* Pods_RockRadio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockRadio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4C47D5E2A9F9C02D50B259 /* Pods_RockRadioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockRadioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E1D0E0D802E1B6D5DAD117 /* Pods-RockRadio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadio.release.xcconfig"; path = "Target Support Files/Pods-RockRadio/Pods-RockRadio.release.xcconfig"; sourceTree = "<group>"; };
+		5F16FA4129F08985003719BD /* AppDelegate+CarPlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+CarPlay.swift"; sourceTree = "<group>"; };
+		5F16FA4329F08B84003719BD /* Unity Live Radio.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Unity Live Radio.entitlements"; sourceTree = "<group>"; };
+		5F2D79FD2AE13E3F0036F5D6 /* PushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
+		5F2D79FE2AE13E3F0036F5D6 /* PushNotificationSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationSender.swift; sourceTree = "<group>"; };
+		74259E6624F14AB6005DF6D6 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		74259E6724F14AB6005DF6D6 /* SideMenuController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuController.xib; sourceTree = "<group>"; };
+		74259E6B24F162BE005DF6D6 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		74259E6C24F162BE005DF6D6 /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		74259E7024F16CED005DF6D6 /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		74259E7124F16CED005DF6D6 /* Station.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		742C831C25043EBE002458EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74349D85257987C8008CB90B /* SongCurrentShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongCurrentShow.swift; sourceTree = "<group>"; };
+		74349D86257987C8008CB90B /* SongNextShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongNextShow.swift; sourceTree = "<group>"; };
+		74349D87257987C8008CB90B /* SongShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongShow.swift; sourceTree = "<group>"; };
+		74349D88257987C8008CB90B /* SongEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongEndpoints.swift; sourceTree = "<group>"; };
+		74349D89257987C8008CB90B /* SongBaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongBaseClass.swift; sourceTree = "<group>"; };
+		74349D8A257987C8008CB90B /* SongBroadcast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongBroadcast.swift; sourceTree = "<group>"; };
+		74352D2F24EBF26300DB42BD /* BaseNeumorphicView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNeumorphicView.swift; sourceTree = "<group>"; };
+		74D615A0257411AC008EE827 /* jix6go84T.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jix6go84T.gif; sourceTree = "<group>"; };
+		74DAFBDF254C5E5100DE6BD9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		74F643EB24E30CD7004DD380 /* Unity Live Radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unity Live Radio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F6440124E30CDD004DD380 /* RockRadioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockRadioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F6440524E30CDD004DD380 /* RockRadioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockRadioTests.swift; sourceTree = "<group>"; };
+		74F6440724E30CDD004DD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F6440C24E30CDD004DD380 /* RockRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F6441024E30CDD004DD380 /* RockRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockRadioUITests.swift; sourceTree = "<group>"; };
+		74F6441224E30CDD004DD380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F6442124E30D69004DD380 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74F6442324E30D69004DD380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F6442724E30D69004DD380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F6442F24E30E5C004DD380 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		74F6443024E30E5C004DD380 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		74F6443524E30F67004DD380 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		74F6443824E31024004DD380 /* AVPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVPlayer.swift; sourceTree = "<group>"; };
+		74F6443B24E310BB004DD380 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F6443D24E31170004DD380 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		74F6443F24E311E2004DD380 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		74F6444024E311E2004DD380 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		74F6444124E311E2004DD380 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8A1A0FAA6EEC36F8754AD7B2 /* Pods-RockRadio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadio.debug.xcconfig"; path = "Target Support Files/Pods-RockRadio/Pods-RockRadio.debug.xcconfig"; sourceTree = "<group>"; };
+		9C438D0F87F21F7429D9A057 /* Pods-RockRadioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadioTests.debug.xcconfig"; path = "Target Support Files/Pods-RockRadioTests/Pods-RockRadioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0DF02CBC6E6E5206BF8F3B8 /* Pods-RockRadio-RockRadioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadio-RockRadioUITests.debug.xcconfig"; path = "Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C71B8B0C1F48E4E1D75A60AD /* Pods_RockRadio_RockRadioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RockRadio_RockRadioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0F8DD828401EF900B5B054 /* ezgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ezgif.gif; sourceTree = "<group>"; };
+		CCCEBFD425BF47FA00250221 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		CCCEBFD525BF47FA00250221 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		CCDFE67E28409EB8002FFA1A /* PRESEDENTIAL.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = PRESEDENTIAL.gif; sourceTree = "<group>"; };
+		D1A1D4DF45E742147859E3EC /* Pods-RockRadio-RockRadioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadio-RockRadioUITests.release.xcconfig"; path = "Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D9A343028C64F6E9E19479BF /* Pods-RockRadioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RockRadioTests.release.xcconfig"; path = "Target Support Files/Pods-RockRadioTests/Pods-RockRadioTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F643E824E30CD7004DD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE2DB4FC4079AC93E6406C5 /* Pods_RockRadio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F643FE24E30CDD004DD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561BC3A42D4D3DCB2543DA1D /* Pods_RockRadioTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F6440924E30CDD004DD380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6192986D318A4B5C79CF833D /* Pods_RockRadio_RockRadioUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F16FA4029F08985003719BD /* CarPlay */ = {
+			isa = PBXGroup;
+			children = (
+				5F16FA4129F08985003719BD /* AppDelegate+CarPlay.swift */,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		5F2D79FC2AE13E3F0036F5D6 /* PushNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				5F2D79FD2AE13E3F0036F5D6 /* PushNotificationManager.swift */,
+				5F2D79FE2AE13E3F0036F5D6 /* PushNotificationSender.swift */,
+			);
+			path = PushNotifications;
+			sourceTree = "<group>";
+		};
+		74259E6524F14A78005DF6D6 /* SideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEBFD325BF47C600250221 /* CustomCell */,
+				74259E6624F14AB6005DF6D6 /* SideMenuController.swift */,
+				74259E6724F14AB6005DF6D6 /* SideMenuController.xib */,
+			);
+			path = SideMenuController;
+			sourceTree = "<group>";
+		};
+		74259E6A24F162BE005DF6D6 /* WebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74259E6B24F162BE005DF6D6 /* WebViewController.swift */,
+				74259E6C24F162BE005DF6D6 /* WebViewController.xib */,
+			);
+			path = WebViewController;
+			sourceTree = "<group>";
+		};
+		74259E6F24F16CED005DF6D6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				74259E7024F16CED005DF6D6 /* Track.swift */,
+				74259E7124F16CED005DF6D6 /* Station.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		74349D83257987C8008CB90B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				74349D84257987C8008CB90B /* Response */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		74349D84257987C8008CB90B /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				74349D85257987C8008CB90B /* SongCurrentShow.swift */,
+				74349D86257987C8008CB90B /* SongNextShow.swift */,
+				74349D87257987C8008CB90B /* SongShow.swift */,
+				74349D88257987C8008CB90B /* SongEndpoints.swift */,
+				74349D89257987C8008CB90B /* SongBaseClass.swift */,
+				74349D8A257987C8008CB90B /* SongBroadcast.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		74F643E224E30CD7004DD380 = {
+			isa = PBXGroup;
+			children = (
+				74F643ED24E30CD7004DD380 /* RockRadio */,
+				74F6440424E30CDD004DD380 /* RockRadioTests */,
+				74F6440F24E30CDD004DD380 /* RockRadioUITests */,
+				74F643EC24E30CD7004DD380 /* Products */,
+				81CDA0BBFEC34F448F21DEAB /* Pods */,
+				9D06D5587FB2034A42057801 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F643EC24E30CD7004DD380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F643EB24E30CD7004DD380 /* Unity Live Radio.app */,
+				74F6440124E30CDD004DD380 /* RockRadioTests.xctest */,
+				74F6440C24E30CDD004DD380 /* RockRadioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F643ED24E30CD7004DD380 /* RockRadio */ = {
+			isa = PBXGroup;
+			children = (
+				5F16FA4329F08B84003719BD /* Unity Live Radio.entitlements */,
+				74349D83257987C8008CB90B /* Network */,
+				74F6441E24E30D69004DD380 /* Classes */,
+				74F6442224E30D69004DD380 /* Resources */,
+			);
+			path = RockRadio;
+			sourceTree = "<group>";
+		};
+		74F6440424E30CDD004DD380 /* RockRadioTests */ = {
+			isa = PBXGroup;
+			children = (
+				74F6440524E30CDD004DD380 /* RockRadioTests.swift */,
+				74F6440724E30CDD004DD380 /* Info.plist */,
+			);
+			path = RockRadioTests;
+			sourceTree = "<group>";
+		};
+		74F6440F24E30CDD004DD380 /* RockRadioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74F6441024E30CDD004DD380 /* RockRadioUITests.swift */,
+				74F6441224E30CDD004DD380 /* Info.plist */,
+			);
+			path = RockRadioUITests;
+			sourceTree = "<group>";
+		};
+		74F6441E24E30D69004DD380 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5F16FA4029F08985003719BD /* CarPlay */,
+				74F6443324E30F67004DD380 /* Helpers */,
+				74F6441F24E30D69004DD380 /* ViewControllers */,
+				74F6442024E30D69004DD380 /* Appdelegate */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		74F6441F24E30D69004DD380 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				74259E6A24F162BE005DF6D6 /* WebViewController */,
+				74259E6524F14A78005DF6D6 /* SideMenuController */,
+				74F6442E24E30E46004DD380 /* MainViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		74F6442024E30D69004DD380 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				74F6442124E30D69004DD380 /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		74F6442224E30D69004DD380 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCDFE67E28409EB8002FFA1A /* PRESEDENTIAL.gif */,
+				CC0F8DD828401EF900B5B054 /* ezgif.gif */,
+				74D615A0257411AC008EE827 /* jix6go84T.gif */,
+				74DAFBDF254C5E5100DE6BD9 /* GoogleService-Info.plist */,
+				742C831B25043EBE002458EB /* LaunchScreen.storyboard */,
+				74F6443B24E310BB004DD380 /* Info.plist */,
+				74F6442324E30D69004DD380 /* Assets.xcassets */,
+				74F6442624E30D69004DD380 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		74F6442E24E30E46004DD380 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74F6442F24E30E5C004DD380 /* MainViewController.swift */,
+				74F6443024E30E5C004DD380 /* MainViewController.xib */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		74F6443324E30F67004DD380 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5F2D79FC2AE13E3F0036F5D6 /* PushNotifications */,
+				74259E6F24F16CED005DF6D6 /* Shared */,
+				74F6443724E3100F004DD380 /* Extensions */,
+				74F6443424E30F67004DD380 /* Constant */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		74F6443424E30F67004DD380 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				74F6443524E30F67004DD380 /* AppConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		74F6443724E3100F004DD380 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				74352D2F24EBF26300DB42BD /* BaseNeumorphicView.swift */,
+				74F6443F24E311E2004DD380 /* Reachability.swift */,
+				74F6444024E311E2004DD380 /* UIColor.swift */,
+				74F6444124E311E2004DD380 /* UIViewController.swift */,
+				74F6443D24E31170004DD380 /* UIView.swift */,
+				74F6443824E31024004DD380 /* AVPlayer.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		81CDA0BBFEC34F448F21DEAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A1A0FAA6EEC36F8754AD7B2 /* Pods-RockRadio.debug.xcconfig */,
+				58E1D0E0D802E1B6D5DAD117 /* Pods-RockRadio.release.xcconfig */,
+				C0DF02CBC6E6E5206BF8F3B8 /* Pods-RockRadio-RockRadioUITests.debug.xcconfig */,
+				D1A1D4DF45E742147859E3EC /* Pods-RockRadio-RockRadioUITests.release.xcconfig */,
+				9C438D0F87F21F7429D9A057 /* Pods-RockRadioTests.debug.xcconfig */,
+				D9A343028C64F6E9E19479BF /* Pods-RockRadioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D06D5587FB2034A42057801 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14202B807D785B7BE09DA119 /* Pods_RockRadio.framework */,
+				C71B8B0C1F48E4E1D75A60AD /* Pods_RockRadio_RockRadioUITests.framework */,
+				3D4C47D5E2A9F9C02D50B259 /* Pods_RockRadioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCEBFD325BF47C600250221 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				CCCEBFD425BF47FA00250221 /* SideMenuTableViewCell.swift */,
+				CCCEBFD525BF47FA00250221 /* SideMenuTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F643EA24E30CD7004DD380 /* RockRadio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F6441524E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadio" */;
+			buildPhases = (
+				4996803B27ED1E953C81A94A /* [CP] Check Pods Manifest.lock */,
+				74F643E724E30CD7004DD380 /* Sources */,
+				74F643E824E30CD7004DD380 /* Frameworks */,
+				74F643E924E30CD7004DD380 /* Resources */,
+				3540D39C3F11B21C5AA2A480 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RockRadio;
+			productName = RockRadio;
+			productReference = 74F643EB24E30CD7004DD380 /* Unity Live Radio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74F6440024E30CDD004DD380 /* RockRadioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F6441824E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadioTests" */;
+			buildPhases = (
+				5D00D7F64150D0524ECA6772 /* [CP] Check Pods Manifest.lock */,
+				74F643FD24E30CDD004DD380 /* Sources */,
+				74F643FE24E30CDD004DD380 /* Frameworks */,
+				74F643FF24E30CDD004DD380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F6440324E30CDD004DD380 /* PBXTargetDependency */,
+			);
+			name = RockRadioTests;
+			productName = RockRadioTests;
+			productReference = 74F6440124E30CDD004DD380 /* RockRadioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74F6440B24E30CDD004DD380 /* RockRadioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F6441B24E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadioUITests" */;
+			buildPhases = (
+				81A2C509E8811D28154D7E7C /* [CP] Check Pods Manifest.lock */,
+				74F6440824E30CDD004DD380 /* Sources */,
+				74F6440924E30CDD004DD380 /* Frameworks */,
+				74F6440A24E30CDD004DD380 /* Resources */,
+				AE6F27E18A0D3D074015A643 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74F6440E24E30CDD004DD380 /* PBXTargetDependency */,
+			);
+			name = RockRadioUITests;
+			productName = RockRadioUITests;
+			productReference = 74F6440C24E30CDD004DD380 /* RockRadioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F643E324E30CD7004DD380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = IBITWAY;
+				TargetAttributes = {
+					74F643EA24E30CD7004DD380 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					74F6440024E30CDD004DD380 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 74F643EA24E30CD7004DD380;
+					};
+					74F6440B24E30CDD004DD380 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 74F643EA24E30CD7004DD380;
+					};
+				};
+			};
+			buildConfigurationList = 74F643E624E30CD7004DD380 /* Build configuration list for PBXProject "RockRadio" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F643E224E30CD7004DD380;
+			productRefGroup = 74F643EC24E30CD7004DD380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F643EA24E30CD7004DD380 /* RockRadio */,
+				74F6440024E30CDD004DD380 /* RockRadioTests */,
+				74F6440B24E30CDD004DD380 /* RockRadioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F643E924E30CD7004DD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D615A1257411AC008EE827 /* jix6go84T.gif in Resources */,
+				74259E6924F14AB6005DF6D6 /* SideMenuController.xib in Resources */,
+				74F6442C24E30D69004DD380 /* Main.storyboard in Resources */,
+				74F6443224E30E5C004DD380 /* MainViewController.xib in Resources */,
+				742C831D25043EBF002458EB /* LaunchScreen.storyboard in Resources */,
+				74259E6E24F162BE005DF6D6 /* WebViewController.xib in Resources */,
+				CCCEBFD725BF47FA00250221 /* SideMenuTableViewCell.xib in Resources */,
+				CCDFE67F28409EB9002FFA1A /* PRESEDENTIAL.gif in Resources */,
+				74F6442A24E30D69004DD380 /* Assets.xcassets in Resources */,
+				CC0F8DD928401EF900B5B054 /* ezgif.gif in Resources */,
+				74DAFBE0254C5E5100DE6BD9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F643FF24E30CDD004DD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F6440A24E30CDD004DD380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3540D39C3F11B21C5AA2A480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RockRadio/Pods-RockRadio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RockRadio/Pods-RockRadio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RockRadio/Pods-RockRadio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4996803B27ED1E953C81A94A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RockRadio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D00D7F64150D0524ECA6772 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RockRadioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A2C509E8811D28154D7E7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RockRadio-RockRadioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE6F27E18A0D3D074015A643 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RockRadio-RockRadioUITests/Pods-RockRadio-RockRadioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F643E724E30CD7004DD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F6443E24E31170004DD380 /* UIView.swift in Sources */,
+				74349D8D257987C8008CB90B /* SongShow.swift in Sources */,
+				74259E6D24F162BE005DF6D6 /* WebViewController.swift in Sources */,
+				74F6444324E311E2004DD380 /* UIColor.swift in Sources */,
+				74349D8F257987C8008CB90B /* SongBaseClass.swift in Sources */,
+				74F6442924E30D69004DD380 /* AppDelegate.swift in Sources */,
+				74F6444224E311E2004DD380 /* Reachability.swift in Sources */,
+				74349D8E257987C8008CB90B /* SongEndpoints.swift in Sources */,
+				74259E7324F16CED005DF6D6 /* Station.swift in Sources */,
+				74F6443924E31024004DD380 /* AVPlayer.swift in Sources */,
+				74349D8B257987C8008CB90B /* SongCurrentShow.swift in Sources */,
+				74259E6824F14AB6005DF6D6 /* SideMenuController.swift in Sources */,
+				5F2D7A002AE13E400036F5D6 /* PushNotificationSender.swift in Sources */,
+				74F6443624E30F67004DD380 /* AppConstants.swift in Sources */,
+				74349D90257987C8008CB90B /* SongBroadcast.swift in Sources */,
+				74F6444424E311E2004DD380 /* UIViewController.swift in Sources */,
+				CCCEBFD625BF47FA00250221 /* SideMenuTableViewCell.swift in Sources */,
+				74349D8C257987C8008CB90B /* SongNextShow.swift in Sources */,
+				74F6443124E30E5C004DD380 /* MainViewController.swift in Sources */,
+				5F2D79FF2AE13E3F0036F5D6 /* PushNotificationManager.swift in Sources */,
+				74352D3024EBF26300DB42BD /* BaseNeumorphicView.swift in Sources */,
+				74259E7224F16CED005DF6D6 /* Track.swift in Sources */,
+				5F16FA4229F08985003719BD /* AppDelegate+CarPlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F643FD24E30CDD004DD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F6440624E30CDD004DD380 /* RockRadioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74F6440824E30CDD004DD380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F6441124E30CDD004DD380 /* RockRadioUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74F6440324E30CDD004DD380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F643EA24E30CD7004DD380 /* RockRadio */;
+			targetProxy = 74F6440224E30CDD004DD380 /* PBXContainerItemProxy */;
+		};
+		74F6440E24E30CDD004DD380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74F643EA24E30CD7004DD380 /* RockRadio */;
+			targetProxy = 74F6440D24E30CDD004DD380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		742C831B25043EBE002458EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				742C831C25043EBE002458EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		74F6442624E30D69004DD380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F6442724E30D69004DD380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F6441324E30CDD004DD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74F6441424E30CDD004DD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F6441624E30CDD004DD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A1A0FAA6EEC36F8754AD7B2 /* Pods-RockRadio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RockRadio/Unity Live Radio.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
+				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PB Live Radio";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.vibe103;
+				PRODUCT_NAME = "Unity Live Radio";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Vibe103_Dev;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F6441724E30CDD004DD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E1D0E0D802E1B6D5DAD117 /* Pods-RockRadio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "RockRadio/Unity Live Radio.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = WRT49XJ773;
+				INFOPLIST_FILE = "$(SRCROOT)/RockRadio/Resources/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "PB Live Radio";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.vibe103;
+				PRODUCT_NAME = "Unity Live Radio";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Vibe103_Diss;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74F6441924E30CDD004DD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C438D0F87F21F7429D9A057 /* Pods-RockRadioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRT49XJ773;
+				INFOPLIST_FILE = RockRadioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockRadio.app/RockRadio";
+			};
+			name = Debug;
+		};
+		74F6441A24E30CDD004DD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A343028C64F6E9E19479BF /* Pods-RockRadioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRT49XJ773;
+				INFOPLIST_FILE = RockRadioTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockRadioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RockRadio.app/RockRadio";
+			};
+			name = Release;
+		};
+		74F6441C24E30CDD004DD380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0DF02CBC6E6E5206BF8F3B8 /* Pods-RockRadio-RockRadioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRT49XJ773;
+				INFOPLIST_FILE = RockRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockRadio;
+			};
+			name = Debug;
+		};
+		74F6441D24E30CDD004DD380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A1D4DF45E742147859E3EC /* Pods-RockRadio-RockRadioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WRT49XJ773;
+				INFOPLIST_FILE = RockRadioUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.RockRadioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RockRadio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F643E624E30CD7004DD380 /* Build configuration list for PBXProject "RockRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F6441324E30CDD004DD380 /* Debug */,
+				74F6441424E30CDD004DD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F6441524E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F6441624E30CDD004DD380 /* Debug */,
+				74F6441724E30CDD004DD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F6441824E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F6441924E30CDD004DD380 /* Debug */,
+				74F6441A24E30CDD004DD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F6441B24E30CDD004DD380 /* Build configuration list for PBXNativeTarget "RockRadioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F6441C24E30CDD004DD380 /* Debug */,
+				74F6441D24E30CDD004DD380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F643E324E30CD7004DD380 /* Project object */;
+}

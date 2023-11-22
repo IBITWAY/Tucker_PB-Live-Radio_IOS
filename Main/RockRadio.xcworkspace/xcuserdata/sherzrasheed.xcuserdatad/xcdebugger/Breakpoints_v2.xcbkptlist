@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "23471060-BE19-4D17-AF0B-3BE04284C974"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "109188D3-8047-49FA-B1AE-35BADEA11B02"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockRadio/Classes/CarPlay/AppDelegate+CarPlay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "contentItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "317FD87A-0F4A-4527-9643-4A9AEFF3E66D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockRadio/Classes/CarPlay/AppDelegate+CarPlay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "contentItem(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4735B453-5196-464D-BAF7-D604298EF1CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockRadio/Classes/CarPlay/AppDelegate+CarPlay.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "numberOfChildItems(at:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3AB924F-ADB1-44C9-A13D-C8BB1575D874"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockRadio/Classes/Appdelegate/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "remoteControlReceived(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A3AB924F-ADB1-44C9-A13D-C8BB1575D874 - 7d136be803d37029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unity_Live_Radio.AppDelegate.remoteControlReceived(with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Unity Live Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherzrasheed/Documents/IBITWAY/RADIO/IOS/Tucker/Tucker_My99FM_IOS/Main/RockRadio/Classes/Appdelegate/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "368">
+               </Location>
+               <Location
+                  uuid = "A3AB924F-ADB1-44C9-A13D-C8BB1575D874 - 7d136be803d37029"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unity_Live_Radio.AppDelegate.remoteControlReceived(with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Unity Live Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherzrasheed/Documents/IBITWAY/RADIO/IOS/Tucker/Tucker_My99FM_IOS/Main/RockRadio/Classes/Appdelegate/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "A3AB924F-ADB1-44C9-A13D-C8BB1575D874 - 82cdc78c4ffe50c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unity_Live_Radio.AppDelegate.remoteControlReceived(with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Unity Live Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherzrasheed/Documents/IBITWAY/RADIO/IOS/Tucker/Tucker_Vibe-103-FM_IOS/Main/RockRadio/Classes/Appdelegate/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "300">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
