@@ -24,7 +24,7 @@
                 <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradiant_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Yel-nM-WxC">
                     <rect key="frame" x="0.0" y="180" width="414" height="716"/>
                 </imageView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VibeFavicon" translatesAutoresizingMaskIntoConstraints="NO" id="lJq-Ka-e5K">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pb live radio" translatesAutoresizingMaskIntoConstraints="NO" id="lJq-Ka-e5K">
                     <rect key="frame" x="0.0" y="60" width="414" height="150"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
@@ -489,13 +489,13 @@
         </view>
     </objects>
     <resources>
-        <image name="VibeFavicon" width="512" height="512"/>
         <image name="contact-us" width="256" height="256"/>
         <image name="facebook" width="1200" height="1200"/>
         <image name="gmail" width="500" height="500"/>
         <image name="gradiant_bg" width="1242" height="2521"/>
         <image name="instagram" width="1262" height="1280"/>
         <image name="nowPlaying" width="256" height="256"/>
+        <image name="pb live radio" width="600" height="600"/>
         <image name="schedule" width="840" height="922"/>
         <image name="twitter" width="405" height="405"/>
         <image name="website" width="400" height="400"/>

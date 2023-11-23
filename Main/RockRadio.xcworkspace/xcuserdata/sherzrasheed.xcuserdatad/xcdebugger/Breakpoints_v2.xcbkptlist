@@ -112,6 +112,21 @@
                   endingLineNumber = "146"
                   offsetFromSymbolStart = "300">
                </Location>
+               <Location
+                  uuid = "A3AB924F-ADB1-44C9-A13D-C8BB1575D874 - 4f2e0be0538b7f09"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Unity_Live_Radio.AppDelegate.remoteControlReceived(with: Swift.Optional&lt;__C.UIEvent&gt;) -&gt; ()"
+                  moduleName = "Unity Live Radio"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sherzrasheed/Documents/IBITWAY/RADIO/IOS/Tucker/Tucker_PB-Live-Radio_IOS/Main/RockRadio/Classes/Appdelegate/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "146"
+                  endingLineNumber = "146"
+                  offsetFromSymbolStart = "300">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

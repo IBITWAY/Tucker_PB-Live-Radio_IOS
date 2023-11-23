@@ -840,7 +840,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.vibe103;
+				PRODUCT_BUNDLE_IDENTIFIER = com.streamerz.PBLive;
 				PRODUCT_NAME = "Unity Live Radio";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = Vibe103_Dev;

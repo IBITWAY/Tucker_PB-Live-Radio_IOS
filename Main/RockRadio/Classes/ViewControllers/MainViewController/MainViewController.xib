@@ -73,7 +73,7 @@
                                 <constraint firstAttribute="trailing" secondItem="Gul-E5-7pi" secondAttribute="trailing" constant="5" id="yOG-gw-Ubt"/>
                             </constraints>
                         </view>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vibe 103 FM" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xI-pY-qPz">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PB Live Radio" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xI-pY-qPz">
                             <rect key="frame" x="70" y="23" width="248" height="24"/>
                             <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -259,7 +259,7 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="T32-63-cVs">
                     <rect key="frame" x="32" y="522.33333333333337" width="366" height="105"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vibe 103 FM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XM9-jK-rkC">
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PB Live Radio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XM9-jK-rkC">
                             <rect key="frame" x="0.0" y="0.0" width="366" height="40"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="40" id="hKb-qN-zAw"/>
@@ -294,7 +294,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8y-Ne-h6r">
                     <rect key="frame" x="50" y="176.99999999999997" width="330" height="313.33333333333326"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VibeFavicon" translatesAutoresizingMaskIntoConstraints="NO" id="PIb-IK-RkC">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pb live radio" translatesAutoresizingMaskIntoConstraints="NO" id="PIb-IK-RkC">
                             <rect key="frame" x="6" y="6" width="318" height="301.33333333333331"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </imageView>
@@ -388,11 +388,11 @@
     </objects>
     <resources>
         <image name="APPBACKDROP" width="1125" height="2436"/>
-        <image name="VibeFavicon" width="512" height="512"/>
         <image name="airplay_1" width="26" height="26"/>
         <image name="angryimg (2)" width="1200" height="1200"/>
         <image name="line.horizontal.3" catalog="system" width="128" height="65"/>
         <image name="menu_1" width="26" height="26"/>
+        <image name="pb live radio" width="600" height="600"/>
         <image name="play" width="13" height="13"/>
         <image name="share" width="20" height="20"/>
         <systemColor name="systemBackgroundColor">

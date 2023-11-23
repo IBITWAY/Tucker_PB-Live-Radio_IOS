@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyBfQM2nm6i2MaewaRwrmp2tP3v9bheoPBc</string>
+	<string>AIzaSyDC7pg7-ro2GxxZbHGeM8okmMs1FXk0yTw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>606155018281</string>
+	<string>555574648393</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.streamerz.vibe103</string>
+	<string>com.streamerz.PBLive</string>
 	<key>PROJECT_ID</key>
-	<string>viberadio-61fd2</string>
+	<string>pb-live-radio</string>
 	<key>STORAGE_BUCKET</key>
-	<string>viberadio-61fd2.appspot.com</string>
+	<string>pb-live-radio.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:606155018281:ios:eac7a8d16cb19897964c38</string>
+	<string>1:555574648393:ios:5f79452254d789cc46e998</string>
 </dict>
 </plist>
